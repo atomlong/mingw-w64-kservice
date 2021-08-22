@@ -2,7 +2,7 @@
 
 _pkgname=kservice
 pkgname=mingw-w64-$_pkgname
-pkgver=5.76.0
+pkgver=5.85.0
 pkgrel=1
 arch=(any)
 pkgdesc="Advanced plugin and service introspection (mingw-w64)"
@@ -13,7 +13,7 @@ makedepends=(mingw-w64-extra-cmake-modules)
 options=(staticlibs !strip !buildflags)
 url="https://community.kde.org/Frameworks"
 source=("http://download.kde.org/stable/frameworks/${pkgver%.*}/$_pkgname-${pkgver}.tar.xz"{,.sig})
-sha256sums=('ef7715e5d3e0bf4fc2d28a7713913a1283fb9c658b3c3536a6db8da649d185bf'
+sha256sums=('e2d1b7436a2bc8a73b4eec486bb8308a7997c65b981f88b17977bf15a5290b01'
             'SKIP')
 validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB) # David Faure <faure@kde.org>
 
